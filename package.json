@@ -1,0 +1,17 @@
+{
+  "fitbit": {
+    "appUUID": "4fde7e9e-b9f8-4dbd-8071-2afc6bfba836",
+    "appType": "clockface",
+    "appDisplayName": "Poochie",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_internet"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Poochie"
+      }
+    }
+  }
+}
