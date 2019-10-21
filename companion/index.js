@@ -32,7 +32,7 @@ settingsStorage.onchange = evt => {
       }
     
       // getting realtime offset
-       fetch('http://api.timezonedb.com/?' + JSON.parse(evt.newValue).values[0].value.timezoneCoordinates + '&key=2F2TELTVDRIB&format=json')
+       fetch('http://api.timezonedb.com/?' + JSON.parse(evt.newValue).values[0].value.timezoneCoordinates + '&key=<your key here>&format=json')
           .then((response) => {return response.json()})
           .then((tmz) => { // on success - asssigning new offset and sending to the watch
                 data.newValue.timezoneOffset = parseInt(tmz.gmtOffset) / 60;
