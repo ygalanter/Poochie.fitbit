@@ -1,0 +1,16 @@
+<svg>
+  <rect id="back" x="0" y="0" width="100%" height="100%" />
+  
+  <image id="h1Local" width="40" height="68" x="36-10" y="37+40" href="digits/2.png" />
+  <image id="h2Local" width="60" height="102" x="98-10" y="4+40" href="digits/0.png" />
+  <image id="m1Local" width="60" height="102" x="192-10" y="4+40" href="digits/5.png"/>
+  <image id="m2Local" width="40" height="68" x="274-10" y="37+40" href="digits/7.png" />
+  
+  <image id="h1Remote" width="40" height="68" x="36-10" y="146+40" href="digits/1.png" />
+  <image id="h2Remote" width="60" height="102" x="98-10" y="146+40" href="digits/8.png" />
+  <image id="m1Remote" width="60" height="102" x="192-10" y="146+40" href="digits/4.png"/>
+  <image id="m2Remote" width="40" height="68" x="274-10" y="146+40" href="digits/6.png" />
+  
+  <text id="localName" class="info" x="50%" y="28" text-anchor="middle">LOCAL</text>
+  <text id="remoteName" class="info" x="50%" y="100%-12" text-anchor="middle">LAX</text>
+</svg>
